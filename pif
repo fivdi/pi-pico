@@ -1,0 +1,4 @@
+#!/bin/bash
+openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg -c "targets rp2040.core0; program $1 preverify verify reset exit"
+#openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg -c "program $1 preverify verify reset exit"
+
