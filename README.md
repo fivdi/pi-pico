@@ -17,3 +17,9 @@ Reset a Raspberry Pi Pico running in SWD mode.
 
 Usage: pir
 
+## oocd - Pico Open On-Chip Debugger
+
+Start openocd for a Raspberry Pi Pico
+
+Usage: oocd
+
