@@ -1,0 +1,9 @@
+#!/bin/bash
+gdb-multiarch --quiet \
+    -ex "target remote localhost:3333" \
+    -ex "load" \
+    -ex "monitor reset init" \
+    -ex "break main" \
+    -ex "continue" \
+    -ex "layout src" $1
+

@@ -30,3 +30,17 @@ Start openocd for a Raspberry Pi Pico.
 
 Usage: oocd
 
+## gdbm - Pico Debugger
+
+Start the GNU debugger and run the following commands:
+
+target remote localhost:3333<br>
+load<br>
+monitor reset init<br>
+break main<br>
+continue<br>
+layout src
+
+Usage: gdbm FILE<br>
+Eample: gdbm blinky.elf
+
